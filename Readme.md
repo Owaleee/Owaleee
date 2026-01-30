@@ -56,7 +56,7 @@ Possuo uma base sólida em **lógica de programação**, **versionamento com Git
 
 ### 🎓 Certificações & Estudos
 
-- 🐍 Python Mundo 1  
+- 🐍 Python Mundo 1 & 2 
 - 🗄️ DBA Foundation  
 - 🌐 JavaScript  
 - 💼 Inglês para Empresas  
@@ -76,3 +76,4 @@ Possuo uma base sólida em **lógica de programação**, **versionamento com Git
 ---
 
 ⭐ Fique à vontade para explorar meus repositórios e acompanhar minha evolução na área de Desenvolvimento Backend!
+
