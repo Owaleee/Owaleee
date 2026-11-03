@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/alexandre-queiroz2001/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://alexandre-queiroz-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfólio-111111?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfólio"></a>
-  <a href="mailto:xandyzh65@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="mailto:alemnzxd@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
 ---
@@ -23,6 +23,15 @@ Foi no suporte que comecei a programar: primeiro para automatizar tarefas repeti
 
 ## Projetos em destaque
 
+### 📱 [PcX Control](https://github.com/Owaleee/PcX-Control-app)
+Transforma o celular Android em um painel de sensores do PC Windows, na rede local, com pareamento por QR code. Um agente em Python coleta CPU, RAM, GPU (uso, VRAM e temperatura), rede e discos, guarda 24 horas de histórico em SQLite e transmite as leituras em tempo real por WebSocket.
+- Senha guardada só como hash, token por aparelho, limite de tentativas e firewall liberado apenas na rede Privada
+- Instalador para Windows com ícone na bandeja, gerado na CI pública do GitHub ([baixar APK e instalador](https://github.com/Owaleee/PcX-Control-app/releases))
+- Testes no Linux e no Windows a cada mudança, mais um teste de fumaça que instala o `.exe`, roda um autoteste e desinstala
+- Agente 0.4.0 e app 0.3.1, com changelog e licença MIT
+
+`Python` `FastAPI` `WebSocket` `SQLite` `psutil` `React Native` `Expo` `TypeScript` `GitHub Actions`
+
 ### 💰 [Distributed Wagering Processor](https://github.com/Owaleee/distributed-wagering-processor)
 Carteira digital para apostas, feita para um desafio técnico de backend. Recebe operações por HTTP e por fila SQS e mantém saldo e extrato corretos mesmo com mensagens duplicadas, fora de ordem e três instâncias disputando o mesmo saldo.
 - Idempotência, padrões **inbox/outbox**, ledger imutável e controle de concorrência no PostgreSQL
@@ -30,14 +39,6 @@ Carteira digital para apostas, feita para um desafio técnico de backend. Recebe
 - Decisões de arquitetura registradas em `ARCHITECTURE.md`
 
 `TypeScript` `Bun` `NestJS` `MikroORM` `PostgreSQL` `AWS SQS` `Docker Compose` `GitHub Actions`
-
-### 📱 [PcX Control](https://github.com/Owaleee/PcX_Control)
-App Android que mostra em tempo real o uso de CPU, RAM, disco e GPU de um PC Windows pela rede local. Um agente em Python coleta as métricas e as entrega por uma API protegida por chave de acesso.
-- APK gerado com EAS e testado em aparelho real
-- Tratamento de falha de rede, chave inválida e GPU indisponível, mantendo a última leitura na tela
-- Leitura de GPU via contadores PDH e DXGI do Windows
-
-`Python` `FastAPI` `psutil` `React Native` `Expo` `TypeScript`
 
 ### 🌡️ [Glacier Temp Display](https://github.com/Owaleee/glacier-temp-display)
 O display do meu water cooler só funcionava com um software fechado que o antivírus acusava como malware. Fiz engenharia reversa do protocolo USB HID do dispositivo e escrevi um script open source que envia a temperatura da CPU direto para o display.
@@ -110,5 +111,5 @@ Cursos: Python (Mundos 1 e 2), JavaScript, DBA Foundation, Inglês para Empresas
 
 <p align="center">
   Procurando alguém para backend, automação ou suporte que goste de entender o problema a fundo?<br>
-  <a href="https://www.linkedin.com/in/alexandre-queiroz2001/">Vamos conversar no LinkedIn</a>.
+  <a href="https://www.linkedin.com/in/alexandre-queiroz2001/">Vamos conversar no LinkedIn</a> ou pelo e-mail <a href="mailto:alemnzxd@gmail.com">alemnzxd@gmail.com</a>.
 </p>
